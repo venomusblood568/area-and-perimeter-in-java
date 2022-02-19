@@ -3,7 +3,10 @@ package com.coding;
 import java.util.Scanner;
 public class question6 {
     public static void main(String[] args) {
-
+        /*
+        Scanner scanner= new scanner(system.in); =  is the statement that takes the input
+        and will take input for each time no need to repeat
+         */
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the length of Rectangle:");
         double W = scanner.nextDouble();
